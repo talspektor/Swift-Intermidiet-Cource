@@ -6,7 +6,7 @@ let hello: (String) -> () = { name in
 
 hello("Mary Doe")
 
-let pow: (Int, Int) -> Int = {
+let multiple: (Int, Int) -> Int = {
     $0 * $1
 }
 
