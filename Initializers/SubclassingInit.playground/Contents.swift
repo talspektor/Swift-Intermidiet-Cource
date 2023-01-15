@@ -24,16 +24,7 @@ class Tesla: Car {
         self.range = 300
         super.init(make: make, model: model, color: color)
     }
-    
-    convenience init(make: String, model: String, range: Double) {
-        self.range = range
-        super.init(make: make, model: model)
-    }
 }
-
-
-
-
 
 
 
