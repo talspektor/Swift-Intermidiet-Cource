@@ -26,7 +26,7 @@ class Tesla: Car {
     }
     
     convenience init(make: String, model: String, range: Double) {
-        range = range
+        self.range = range
         super.init(make: make, model: model)
     }
 }
